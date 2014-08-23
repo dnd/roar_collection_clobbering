@@ -1,0 +1,7 @@
+This repo demonstrates to issues with Roar/Representable.
+
+1. ActiveSupport is overriding the to_json method somehow when using modules, preventing collections from being output according to their representer
+
+2. Objects are unable to be extended with multiple modules.
+
+run `rake` to run the tests(`test/models/representers_test.rb`) demonstrating the failure.
